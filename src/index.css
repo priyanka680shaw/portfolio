@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --yellow-theme-bg-Color : #1d1d1d;
+  --yellow-theme-text-Color : #ffdd40;
+  --yellow-theme-sub-text-Color : #ffffff;
+  --yellow-theme-nav-bg-Color : #181818;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html{
+  /* sfont-size: 62.5%; */
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+body{
+  background-color: var(--yellow-theme-bg-Color);
+  height: 100%;
+}
